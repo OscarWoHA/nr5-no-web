@@ -13,7 +13,10 @@ const Slug: NextPage<SlugProps> = ({ imageUrl }) => {
                 <meta property="og:title" content="nr5" />
                 <meta property="og:site_name" content="nr5 image sharing" />
                 <meta property="og:url" content="nr5.no" />
-                <meta property="og:description" content="" />
+                <meta
+                    property="og:description"
+                    content="This screenshot was provided by the nr5.no image sharing service"
+                />
                 <meta property="og:type" content="object" />
                 {imageUrl && <meta property="og:image" content={imageUrl} />}
             </Head>
